@@ -1,8 +1,10 @@
 {
-  "rewrites": [
-    {
-      "source": "/api/analyze",
-      "destination": "/api/analyze.py"
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/analyze.py": {
+      "runtime": "python3.9",
+      "maxDuration": 60
     }
-  ]
+  }
 }
