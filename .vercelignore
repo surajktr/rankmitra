@@ -1,0 +1,17 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+*.pyc
+
+# Ignore local server files
+server.py
+local-server.mjs
+
+# Ignore batch scripts
+*.bat
+
+# Ignore Supabase functions (not needed for frontend build)
+supabase/
+
+# Ignore artifacts
+.gemini/
